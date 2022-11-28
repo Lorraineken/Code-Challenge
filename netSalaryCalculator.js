@@ -7,7 +7,7 @@
 
 //https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 
-
+//PAYE DEDUCTION
 function paye(grossPay){
     let payeTax;
 if (grossPay>0 && grossPay<=24000){
@@ -22,7 +22,7 @@ else if(grossPay>32333){
 }
 
 }
-
+//NHIF DEDUCTIONS
 function nhif(grossPay){
     let nhifDeductions;
     if(grossPay<=5999){
@@ -77,7 +77,7 @@ function nhif(grossPay){
         return nhifDeductions=1700
     }
 }
- 
+ //NSSF DEDUCTIONS
 function nssfTier1(grossPay){
     let tier1;
     if(grossPay>=3000){
@@ -109,12 +109,14 @@ function nssfTier2(grossPay){
     return tier2
 }
 
-let grossPay =30000;
+let grossPay =30000; // set the value of Gross Salary
+
 const calcPaye=paye(grossPay);
 const calcnhif=nhif(grossPay);
 const calcTier1=nssfTier1(grossPay);
 const calcTier2=nssfTier2(grossPay);
 
+//CALCULATION OF NET PAY
 let netPay = grossPay - (calcPaye+calcnhif+calcTier1+calcTier2)
 
 console.log(`netpay :${netPay} `)
