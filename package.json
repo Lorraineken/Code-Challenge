@@ -1,0 +1,25 @@
+{
+  "name": "wk1-code-challenge",
+  "version": "1.0.0",
+  "description": "Grade generator,Speed Detector and Net Salary Calculator",
+  "main": "gradeGenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lorraineken/wk1-code-challenge.git"
+  },
+  "keywords": [
+    "'gradeGenerator'",
+    "'speedDetector'",
+    "'net",
+    "salary'"
+  ],
+  "author": "Lorraine Kupa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lorraineken/wk1-code-challenge/issues"
+  },
+  "homepage": "https://github.com/Lorraineken/wk1-code-challenge#readme"
+}
