@@ -108,7 +108,7 @@ function nssfTier2(grossPay){
     }
     return tier2
 }
-let x = 0
+
 let grossPay =30000;
 const calcPaye=paye(grossPay);
 const calcnhif=nhif(grossPay);

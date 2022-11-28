@@ -5,8 +5,10 @@
 ## Grade Generator
 ### Description
 This is a student grade generator that accepts the marks of the student and prints out the grade.
-A function called gradeGenerator is created where marks is used as the parameter.
-To display the grade once the marks value is passed I used console.log() 
+A function called gradeGenerator is created where marks is used as the parameter and the marks passed as an argument.Once the function is called the grade is logged. 
+The grading system is as follows
+A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
+
 ****
 ## Speed Detector
 ### Description
@@ -17,6 +19,7 @@ The program takes as input the speed of the car .The input is passed as an argum
 The program calculates an individual's net salary by getting the inputs of basic salary and benefits. 
 The benefits and deductions include PAYE, NHIF and NSSF. There is a function for paye and nhif.For nssf there are 2 functions i.e. nssfTier1 and nssfTier2. All the functions return the deductions based on the individual's salary. 
 To compute the net salary the deductions are added and subtracted from the grossPay which is the basic salary.
+ [KRA, NHIF, and NSSF values] https://www.aren.co.ke/payroll/taxrates.htm Links to an external site
 
 ## SetUp Instruction
 ### Requirements
@@ -24,8 +27,10 @@ To compute the net salary the deductions are added and subtracted from the gross
 ### Getting Files
 * Fork and clone the repo
 
-## How To Run It
-node <fileName>
+## How To Run the projects
+node gradeGenerator.js
+node netSalaryCalculator.js
+node speedDetector.js
 *****
 ## Technologies Used
 1. HTML
