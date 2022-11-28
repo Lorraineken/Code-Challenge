@@ -28,4 +28,4 @@ function gradeGenerator(marks){
     }
 }
 
-gradeGenerator(100)
+gradeGenerator(70) 
