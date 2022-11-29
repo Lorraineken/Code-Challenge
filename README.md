@@ -25,12 +25,26 @@ To compute the net salary the deductions are added and subtracted from the gross
 ### Requirements
 * Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
 ### Getting Files
-* Fork and clone the repo
+* To use this repo on your machine:
+ 
+       git clone https://github.com/Lorraineken/wk1-code-challenge
+
+*Change directory to the repo folder:
+    
+       cd wk1-code-challenge
+
+Open it in ``Visual Studio Code``
+
+       code .
 
 ## How To Run the projects
-node gradeGenerator.js
-node netSalaryCalculator.js
-node speedDetector.js
+From your terminal within the cloned repo:
+->To run the Grade Generator
+   $ node gradeGenerator.js
+->To run the Net Salary Calculator
+   $ node netSalaryCalculator.js
+->To run the speed Detector
+   $ node speedDetector.js
 *****
 ## Technologies Used
 1. HTML
@@ -39,5 +53,5 @@ node speedDetector.js
 ## Contact Information
 * Personal Email : lorrainekupa@gmail.com
 *****
-MIT License
+###MIT License
 This project uses the MIT license
