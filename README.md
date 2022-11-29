@@ -29,7 +29,7 @@ To compute the net salary the deductions are added and subtracted from the gross
  
     git clone https://github.com/Lorraineken/wk1-code-challenge
 
-*Change directory to the repo folder:
+*  Change directory to the repo folder:
     
     cd wk1-code-challenge
 
@@ -39,17 +39,18 @@ Open it in ``Visual Studio Code``
 
 ## How To Run the projects
 From your terminal within the cloned repo:
-*To run the Grade Generator
+* To run the Grade Generator
 
    $ node gradeGenerator.js
 
-*To run the Net Salary Calculator
+* To run the Net Salary Calculator
 
    $ node netSalaryCalculator.js
 
-*To run the speed Detector
+* To run the speed Detector
 
    $ node speedDetector.js
+
 *****
 ## Technologies Used
 1. HTML
